@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__items">
+				<p class="header__email">
+					Наша почта:
+					<a class="header__email-link" href="#">@gmail.com</a>
+				</p>
+				<a class="header__btn" href="#form">оставить заявку</a>
+			</div>
+		</div>
+	</header>
+	 <main class="main">
+	<section class="top-content">
+		<div class="container">
+			<div class="top-content__items">
+				<h1 class="top-content__title">КОНКУРСЫ, ОЛИМПИАДЫ, </h1>
+				<p class="top-content__text">ОРГАНИЗАЦИОННЫЙ ВЗНОС всего 5000 сум</p>
+				<p class="top-content__text">
+					УЖЕ ОФОРМЛЕНО ДИПЛОМОВ:
+					<span id="out">1</span>
+				</p>
+				<a class="top-content__link" href="#">Положение о конкурсе</a>
+			</div>
+		</div>
+	</section>
+	<section class="step">
+		<div class="container">
+			<div class="step__box">
+				<h2 class="step__title">ТРИ ШАГА ДО ДИПЛОМА</h2>
+				<div class="step__items">
+					<div class="step__block">
+						<span class="step__block-num">1</span>
+						<h4 class="step__block-title">Заполнить заявку</h4>
+						<p class="step__block-text">Внимательно заполнить все поля заявки данными для документа</p>
+					</div>
+					<div class="step__block">
+						<span class="step__block-num">2</span>
+						<h4 class="step__block-title">Оплатить орг.взнос</h4>
+						<p class="step__block-text">Вам будет предложено много разных способов оплаты</p>
+					</div>
+					<div class="step__block">
+						<span class="step__block-num">3</span>
+						<h4 class="step__block-title">Скачать документ</h4>
+						<p class="step__block-text">Найти документ можно нажав на кнопку "Найти свой документ" в верхней части сайта</p>
+					</div>
+				</div>
+				<a class="step__link" href="#form">оформить документ</a>
+			</div>
+		</div>
+	</section>
+	<section class="info">
+		<div class="container">
+			<div class="info__box">
+				<h3 class="info__title">ПОЧЕМУ МЫ?</h3>
+				<div class="info__items">
+					<ul class="info__items-box">
+						<li class="info__list">Без регистрации и заявок! Участник получает свой диплом сразу после оплаты!</li>
+						<li class="info__list">Конкурсная работа отправляется участником после получения диплома!</li>
+						<li class="info__list">Участник сам выбирает призовое место, дату выдачи диплома,уровень конкурса (международный, всероссийский, областной и т.д.)</li>
+						<li class="info__list">Для аттестации, стимулирующих выплат, портфолио, подтверждения результативности, подтверждения профессионального развития и активности и т.д.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="coment">
+		<div class="container">
+			<div class="coment__box">
+				<h3 class="coment__title">ОТЗЫВЫ О НАС</h3>
+				<div class="coment__items">
+					<div class="coment__block">
+						<h4 class="coment__block-title">Морозова Маргарита Витальевна</h4>
+						<p class="coment__block-text">Отличный сайт! Нужен был срочно документ для аттестации, знакомая подсказала данный сайт. Заполнила заявку, оплатила взнос картой. Ссылка на документ пришла на почту....</p>
+					</div>
+					<div class="coment__block">
+						<h4 class="coment__block-title">Макарова Наталья Степановна </h4>
+						<p class="coment__block-text">Первый раз на данном сайте, все просто и понятно. Все прошло замечательно, а главное быстро! Спасибо организаторам....</p>
+					</div>
+					<div class="coment__block">
+						<h4 class="coment__block-title">Попова Ирина Сергеевна</h4>
+						<p class="coment__block-text">Нашла в интернете данный проект, где можно оформить диплом дистанционно! Оплатила по карте небольшую сумму и получила на почту ссылку! Прошла аттестацию, ура!...</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
+	<footer class="footer">
+		<div class="container">
+		<form id="form" class="form">
+			<input class="form__input" type="text" name="" placeholder="Ф.И.О" required>
+			<input class="form__input" type="email" name="" placeholder="@mail" required>
+			<input class="form__input" type="text" name="" placeholder="Учебное заведение" required>
+			<input class="form__input" type="text" name="" placeholder="должность или класс" required>
+			<p class="form__text">Формат: doc, docx, pdf, odt, ppt, pptx, jpeg, jpg, png, txt</p>
+			<input class="form__input" type="file" name="file" multiple>
+			<button class="form__btn" type="submit">Отправить</button>
+			
+		</form>
+			
+		<p class="footer__copy">
+			© 2021 Все права защищены
+		</p></div>
+	</footer> 
+	<script src="js/script.min.js"></script>
+</body>
+
+</html>
