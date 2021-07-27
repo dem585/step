@@ -35,6 +35,7 @@
 			</div>
 		</div>
 	</section>
+
 	<section class="step">
 		<div class="container">
 			<div class="step__box">
@@ -101,10 +102,21 @@
 	<footer class="footer">
 		<div class="container">
 		<form id="form" class="form">
+
+			<!-- Hidden Required Fields -->
+						<input type="hidden" name="project_name" value="TFB">
+						<input type="hidden" name="admin_email" value="dem585@gmail.com">
+						<input type="hidden" name="form_subject" value="Block Form">
+			<!-- END Hidden Required Fields -->
+
+
+
 			<input class="form__input" type="text" name="" placeholder="Ф.И.О" required>
 			<input class="form__input" type="email" name="" placeholder="@mail" required>
-			<input class="form__input" type="text" name="" placeholder="Учебное заведение" required>
-			<input class="form__input" type="text" name="" placeholder="должность или класс" required>
+
+
+			<!-- <input class="form__input" type="text" name="" placeholder="Учебное заведение" required>
+			<input class="form__input" type="text" name="" placeholder="должность или класс" required> -->
 			<p class="form__text">Формат: doc, docx, pdf, odt, ppt, pptx, jpeg, jpg, png, txt</p>
 			<input class="form__input" type="file" name="file" multiple>
 			<button class="form__btn" type="submit">Отправить</button>
