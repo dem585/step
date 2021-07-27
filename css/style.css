@@ -74,6 +74,20 @@ a {
   text-decoration: none;
 }
 
+
+.step__block{
+  max-width: 280px;
+}
+
+.top-content__title{
+  text-transform: uppercase;
+}
+
+.header__lang{
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
 .header {
   padding: 20px 0;
 }
